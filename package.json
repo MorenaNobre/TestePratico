@@ -4,10 +4,14 @@
   "description": "Teste prático para processo seletivo RSC Inovação",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "Morena Nobre"
+  "license": "Morena Nobre",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*===HEADER===*/
+header{
+    background: blue;
+}
+
+/*===SECTION PRESENTATION===*/
+.presentation{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION INOVATION===*/
+.inovation{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION WEB-APP-MOBILE===*/
+.web-app-mobile{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION PURPOSE===*/
+.purpose{
+    margin-top: 10px;
+    background: blue;
+}
