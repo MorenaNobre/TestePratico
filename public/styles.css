@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+:root{
+    --body-color: #ffffff;
+    --background-presentation: #f8f9fd;
+    --font-header: #1E2978;
+    --contact-us-blue: #2F3BEA;
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +14,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--body-color);
 }
 a{
     text-decoration: none;
@@ -15,7 +22,7 @@ a{
 
 /*===HEADER===*/
 header{
-    background: blue;
+    background-color: var(--background-presentation);
 }
 
 /*===SECTION PRESENTATION===*/
@@ -38,6 +45,48 @@ header{
 
 /*===SECTION PURPOSE===*/
 .purpose{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION CONTACT-US===*/
+.contact-us{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION FORM===*/
+.form{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION OUR PLANS===*/
+.our-plans{
+    margin-top: 10PX;
+    background: blue;
+}
+
+/*===SECTION CUSTOMERS-OPINION===*/
+.customers-opinion{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECION INTERESTED SOLUTION===*/
+.interested-solution{
+    margin-top: 10PX;
+    background: blue;
+}
+
+/*===SECTION FOLLOW===*/
+.follow{
+    margin-top: 10px;
+    background: blue;
+}
+
+/*===SECTION FOOTER===*/
+.footer{
     margin-top: 10px;
     background: blue;
 }
