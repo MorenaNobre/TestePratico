@@ -432,7 +432,24 @@ input{
 
 /*===SECTION CUSTOMERS-OPINION===*/
 .customers-opinion{
-    background: blue;
+    height: 100%;
+}
+.customers-opinion h1{
+    color: #8D8AA9;
+    text-align: right;
+    font-size: 30px;
+    margin-right: 250px;
+    margin-top: 170px;
+    font-weight: 400;
+}
+.cards-opinion{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.cards-opinion img{
+    height: 210px;
 }
 
 /*===SECION INTERESTED SOLUTION===*/
