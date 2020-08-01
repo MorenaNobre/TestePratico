@@ -275,7 +275,7 @@ header ul li a:hover{
     grid-template-rows: 1;
     gap: 80px;
     padding: 200px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .contact-rsc{
     color: #2F3BEA;
@@ -311,14 +311,59 @@ header ul li a:hover{
 
 /*===SECTION FORM===*/
 .form{
-    margin-top: 10px;
-    background: blue;
+    background: #0010FF;
+    height: 80vh;
+    margin: 0 100px;
+    text-align: center;
+    padding: 90px 0 50px 0;
+    border-radius: 50px;
+}
+.test{
+    color: #F5F5F5;
+    font-weight: 300;
+    font-size: 32px;
+}
+.form-next-step p{
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    color: #F5F5F5;
+    font-weight: lighter;
+}
+.input-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 500px;
+    padding: 50px 70px;
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
+input{
+    padding: 10px 30px;
+    border-radius: 25px;
+    outline: none;
+}
+.send-form{
+    background-color: #FEE71F;
+    padding: 10px 70px;
+    border-radius: 25px;
+    color: #1E2978;
+    font-size: 14px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.promisse{
+    color: #F5F5F5;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 /*===SECTION OUR PLANS===*/
 .our-plans{
-    margin-top: 10PX;
-    background: blue;
+    background: #F8F9FD;
+    height: 100vh;
 }
 
 /*===SECTION CUSTOMERS-OPINION===*/
