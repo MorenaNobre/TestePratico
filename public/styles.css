@@ -260,6 +260,7 @@ header ul li a:hover{
 .contact-us{
     background: #F8F9FD;
     height: 100vh;
+    margin: 0 100px;
 }
 .contact-us h1{
     background: #2F3BEA;
@@ -364,11 +365,73 @@ input{
 .our-plans{
     background: #F8F9FD;
     height: 100vh;
+    text-align: center;
+}
+.check-plans h2{
+    margin-top: 200px;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 400;
+}
+.check-plans h1{
+    margin-top: 15px;
+    color: #707070;
+    font-weight: 500;
+}
+.card-plans{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1;
+    gap: 40px;
+}
+.card-mobile{
+    background: #46C1E9;
+    border-radius: 20px;
+    padding: 70px;
+    margin-left: 200px;
+    box-shadow: 5px 10px 18px #aaa9a9;
+}
+.card-mobile h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #0E2B68;
+    font-weight: 400;
+}
+.card-mobile p{
+    margin-bottom: 40px;
+    color: #0E2B68;
+}
+.know-more{
+    background: transparent;
+    padding: 8px 70px;
+    border: 3px solid #0010FF;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #2F3BEA;
+    cursor: pointer;
+}
+.card-virtual{
+    background-color: #FEE71F;
+    border-radius: 20px;
+    padding: 70px;
+    margin-right: 200px;
+    box-shadow: 5px 10px 18px #aaa9a9;
+}
+.card-virtual h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #0E2B68;
+    font-weight: 400;
+}
+.card-virtual p{
+    margin-bottom: 40px;
+    color: #0E2B68;
 }
 
 /*===SECTION CUSTOMERS-OPINION===*/
 .customers-opinion{
-    margin-top: 10px;
     background: blue;
 }
 
