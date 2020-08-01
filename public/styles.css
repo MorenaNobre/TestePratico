@@ -15,7 +15,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--body-color);
+    background-color: #f8f9fd;
 }
 a{
     text-decoration: none;
@@ -200,6 +200,7 @@ header ul li a:hover{
 .purpose{
     background-color: #f8f9fd;
     height: 100%;
+    margin-bottom: 150px;
 }
 .text-purpose{
     text-align: center;
@@ -257,8 +258,55 @@ header ul li a:hover{
 
 /*===SECTION CONTACT-US===*/
 .contact-us{
-    margin-top: 10px;
-    background: blue;
+    background: #F8F9FD;
+    height: 100vh;
+}
+.contact-us h1{
+    background: #2F3BEA;
+    color: #F5F5F5;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 45px;
+}
+.content-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    gap: 80px;
+    padding: 200px;
+    padding-top: 100px;
+}
+.contact-rsc{
+    color: #2F3BEA;
+    text-align: right;
+}
+.contact-rsc h2{
+    font-size: 20px;
+    /* line-height: 35px; */
+    font-weight: 400;
+}
+.preparados{
+    margin-top: 30px;
+}
+.contact-rsc p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.contacts-links a img{
+    height: 20px;
+}
+.contacts-links a{
+    color: #2F3BEA;
+}
+.contacts-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+.contacts-links a span{
+    margin-right: 15px;
 }
 
 /*===SECTION FORM===*/
