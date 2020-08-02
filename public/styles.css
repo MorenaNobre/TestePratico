@@ -544,6 +544,51 @@ input{
 
 /*===SECTION FOOTER===*/
 .footer{
-    margin-top: 10px;
-    background: blue;
+    /* background: rgb(145, 145, 153); */
+    height: 100%;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.write{
+    display: flex;
+    justify-content: space-between;
+}
+.write h1, a{
+    color: #F5F5F5;
+}
+.write h1{
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 1px;
+}
+.write a{
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.footer-solutions{
+    display: flex;
+    flex-direction: column;
+}
+.footer-explore{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 130px;
+}
+.logo-rsc img{
+    height: 90px;
+}
+.envole{
+    height: 100vh;
+}
+#footer-img-form{
+    background: url(./assets/img/footer-form.png) no-repeat;
+    height: 100;
+    background-position: -48vw 57vh;
+    background-size: 1530px;
+    /* height: 100px;
 }
