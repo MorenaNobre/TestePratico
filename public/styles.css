@@ -360,7 +360,6 @@ input{
 
 /*===SECTION OUR PLANS===*/
 .our-plans{
-    background: #F8F9FD;
     height: 100vh;
     text-align: center;
 }
@@ -451,6 +450,7 @@ input{
 
 /*===SECION INTERESTED SOLUTION===*/
 .interested-solution{
+    padding-top: 100px;
     margin-top: 230px;
     margin-bottom: 230px;
     height: 40vh;
@@ -475,7 +475,7 @@ input{
 .consultants{
     background: #2F3BEA;
     position: absolute;
-    top: 66%;
+    top: 75%;
     left: 41%;
     padding: 15px 60px;
     border-radius: 25px;
@@ -607,4 +607,16 @@ input{
     height: 100%;
     background-size: 508px;
     background-position: -20vw 23vh;
+}
+#plans-img{
+    background: url(./assets/img/elipse-plans.png) no-repeat;
+    height: 100%;
+    background-size: 330px;
+    background-position: 88vw 1vh;
+}
+#interested-img{
+    background: url(./assets/img/interested.png) no-repeat;
+    height: 100vh;
+    background-position: 5vw 3vh;
+    background-size: 1175px;
 }
