@@ -260,7 +260,7 @@ header ul li a:hover{
 .contact-us{
     background: #F8F9FD;
     height: 100vh;
-    margin: 0 100px;
+    margin: 0;
 }
 .contact-us h1{
     background: #2F3BEA;
@@ -455,6 +455,7 @@ input{
 /*===SECION INTERESTED SOLUTION===*/
 .interested-solution{
     margin-top: 230px;
+    margin-bottom: 230px;
     height: 40vh;
     text-align: center;
     position: relative;
@@ -487,7 +488,58 @@ input{
 
 /*===SECTION FOLLOW===*/
 .follow{
-    background: blue;
+    height: 100vh;
+}
+.follow h1{
+    margin-left: 180px;
+}
+.follow h1, h2, p{
+    color: #8D8AA9;
+}
+.follow h1, h2{
+    font-weight: 500;
+}
+.infos{
+    /* display: inline; */
+    /* padding: 100px; */
+    margin: 40px;
+    margin-left: 160px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.info{
+    display: flex;
+    margin-bottom: 50px;
+}
+.info img{
+    height: 32px;
+    margin-top: 10px;
+}
+.info-letter{
+    display: flex;
+    margin-bottom: 50px;
+}
+.info-letter img{
+    height: 20px;
+    margin-top: 15px;
+}
+.social-info{
+    margin-left: 24px;
+}
+.social-info p{
+    margin-top: 5px;
+}
+.socialmedia-links{
+    text-align: right;
+    margin-right: 160px;
+    margin-left: 750px;
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia-links img{
+    height: 50px;
 }
 
 /*===SECTION FOOTER===*/
